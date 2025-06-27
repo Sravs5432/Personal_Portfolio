@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Theme (Light) */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --primary: 234 89% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 45 100% 50%;
+  --secondary-foreground: 0 0% 0%;
+
+  --muted: 210 20% 96%;
+  --muted-foreground: 222 10% 40%;
+
+  --border: 220 13% 91%;
+  --ring: 234 89% 65%;
+}
+
+/*  Dark Mode */
+.dark {
+  --background: 222 47% 11%;
+  --foreground: 0 0% 100%;
+
+  --primary: 234 89% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 45 100% 50%;
+  --secondary-foreground: 0 0% 0%;
+
+  --muted: 222 30% 20%;
+  --muted-foreground: 220 10% 70%;
+
+  --border: 222 14% 25%;
+  --ring: 234 89% 65%;
+}
