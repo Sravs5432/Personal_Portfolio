@@ -7,6 +7,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ThankYou from "./pages/ThankYou";
 
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -21,6 +24,7 @@ const App = () => (
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </BrowserRouter>
+      <SpeedInsights />
     </TooltipProvider>
   </QueryClientProvider>
 );
