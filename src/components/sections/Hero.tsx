@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Download, Sparkles, Zap } from 'lucide-react';
+import { ArrowRight, ArrowDown, Download, Sparkles, Zap } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -38,7 +38,14 @@ const Hero = () => {
       <div className="flex flex-col sm:flex-row gap-6 justify-center items-center bounce-in">
         <button className="group relative overflow-hidden bg-gradient-to-r from-indigo-600 to-amber-400 text-white px-10 py-5 rounded-2xl font-semibold text-lg transition-all duration-500 hover:scale-110 shadow-2xl flex items-center gap-3">
           <span className="relative z-10">View My Work</span>
-          <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300 relative z-10" />
+          <ArrowRight 
+            size={20} 
+            className="hidden sm:block group-hover:translate-x-2 transition-transform duration-300 relative z-10" 
+          />
+          <ArrowDown 
+            size={20} 
+            className="block sm:hidden group-hover:translate-y-1 transition-transform duration-300 relative z-10" 
+          />
           <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
         </button>
 

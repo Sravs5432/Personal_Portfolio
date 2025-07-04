@@ -44,7 +44,8 @@ const About = () => {
                   <Target size={16} />
                 </div>
 
-                <div className="text-8xl bounce-in relative z-10" style={{ animationDelay: '0.1s' }}>👨‍🎓</div>
+                <img src='/mypic.jpg' alt='profile' className="w-full h-full object-cover object-[center_20%] animate__animated animate__bounceIn relative z-10" style={{ animationDelay: '0.1s' }}/>
+                
               </div>
             </div>
           </div>
